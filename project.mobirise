@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-09-03_1653",
-    "currentPage": "page1.html",
+    "currentPage": "idee.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -494,7 +494,7 @@
         }
       ]
     },
-    "page1.html": {
+    "idee.html": {
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Idee",

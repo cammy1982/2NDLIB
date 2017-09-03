@@ -1,6 +1,6 @@
-@import url(../../../https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700);
+@import url(../../../https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 @import url(../../../https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
-@import url(../../../https://fonts.googleapis.com/css?family=Indie+Flower:400);
+@import url(../../../https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i);
 
 
 
@@ -23,11 +23,11 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 4.6rem;
+  font-family: 'Inconsolata', monospace;
+  font-size: 3.4rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 7.36rem;
+  font-size: 5.44rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -44,11 +44,11 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Indie Flower', handwriting;
-  font-size: 1.2rem;
+  font-family: 'Lora', serif;
+  font-size: 1rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 1.92rem;
+  font-size: 1.6rem;
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
@@ -64,9 +64,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.68rem;
-    font-size: calc( 2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.72rem;
+    font-size: calc( 1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.28rem;
@@ -79,9 +79,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1563,47 +1563,16 @@ pre {
     border-left: .30em solid transparent;
   }
 }
-.cid-qub2cDl4qc {
-  padding-top: 45px;
-  padding-bottom: 15px;
-  background-color: #b2ccd2;
+.cid-qub5oe3Eb1 {
+  padding-top: 105px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #787324, #0f7699);
 }
-.cid-qub2cDl4qc .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-qub1Tpl6NM {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #b2ccd2;
-}
-.cid-qub1Tpl6NM .counter-container {
-  color: #767676;
-}
-.cid-qub1Tpl6NM .counter-container ol {
-  margin-bottom: 0;
-  counter-reset: myCounter;
-}
-.cid-qub1Tpl6NM .counter-container ol li {
-  margin-bottom: 1rem;
-}
-.cid-qub1Tpl6NM .counter-container ol li {
-  list-style: none;
-  padding-left: .5rem;
-}
-.cid-qub1Tpl6NM .counter-container ol li:before {
-  position: absolute;
-  left: 0px;
-  margin-top: -10px;
-  counter-increment: myCounter;
-  content: counter(myCounter);
-  display: inline-block;
+.cid-qub5oe3Eb1 .mbr-text,
+.cid-qub5oe3Eb1 .mbr-section-btn {
+  color: #020202;
   text-align: center;
-  margin: 5px 10px;
-  line-height: 40px;
-  transition: all .2s;
-  color: #ffffff;
-  background: #149dcc;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+}
+.cid-qub5oe3Eb1 H1 {
+  color: #020202;
 }

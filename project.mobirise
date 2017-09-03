@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-09-03_1653",
+    "name": "LIBERTARIA_NL",
     "currentPage": "idee.html",
     "theme": {
       "name": "mobirise4",
@@ -37,7 +37,10 @@
     },
     "versionFirst": "4.1.7",
     "uniqCompNum": 18,
-    "versionPublish": "4.1.7"
+    "versionPublish": "4.1.7",
+    "favicon": "",
+    "noImageResize": "",
+    "cookiesAlert": ""
   },
   "pages": {
     "index.html": {

@@ -1576,3 +1576,34 @@ pre {
 .cid-qub5oe3Eb1 H1 {
   color: #020202;
 }
+.cid-qub7m42V68 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-qub7m42V68 .line {
+  background-color: #084c7e;
+  color: #084c7e;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-qub7m42V68 .section-text {
+  padding: 2rem 0;
+}
+.cid-qub7m42V68 .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-qub7m42V68 .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-qub7LIWB1F {
+  padding-top: 0px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.cid-qub7LIWB1F .mbr-text {
+  color: #767676;
+}
